@@ -1,0 +1,39 @@
+#header-title{
+    font-size: 63px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+h2{
+  font-size: 54px;
+  color: #303030;
+  font-weight: 600;
+}
+
+#pacotes .figuras figure{
+    display: inline-block;
+}
+
+#pacotes .figuras{
+    text-align: center;
+}
+
+#pacotes{
+    text-align: center;
+}
+
+section{
+    padding: 40px;
+}
+
+footer{
+    text-align: center;
+    color:#303030;
+}
+
+#carouselExampleCaptions h5{
+    color: #e0ab0c;
+    font-size: 100px;
+    text-shadow: 2px 2px 2px black;
+}
