@@ -37,3 +37,14 @@ footer{
     font-size: 100px;
     text-shadow: 2px 2px 2px black;
 }
+
+#contato{
+    text-align: left;
+    color: #303030;
+    list-style: none;
+}
+#contato-title{
+    color: rgba(0, 0, 0, 0.853);
+    font-weight: 500;
+    padding-bottom: 10px;
+}

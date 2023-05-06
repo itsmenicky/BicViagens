@@ -19,24 +19,18 @@
               <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Pacotes</a>
+                    <a class="nav-link" aria-current="page" href="#pacotes">Pacotes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Taxas</a>
+                    <a class="nav-link" href="#taxas">Taxas</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link" href="#footer">
                       Contato
                     </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"> <i class="bi bi-cart"></i></a>
+                    <a class="nav-link" href="checkout.html"> <i class="bi bi-cart"></i></a>
                   </li>
                 </ul>
               </div>
@@ -127,7 +121,7 @@
                 </div>
         </div>
     </section>
-    <section class="container-fluid bg-warning">
+    <section class="container-fluid bg-warning" id="taxas">
         <h2 class="text-center">Taxas de Serviços</h2>
         <table class="table table-warning table-striped table-hover table-bordered border-warning">
             <caption>Descrição dos serviços e respectivos valores</caption>
@@ -216,8 +210,13 @@
         </form>
     </section>
     <br><br>
-    <footer class="container-fluid bg-warning p-2">
-        <p>Desenvolvido por O Bic Tambem Ó</p>
+    <footer class="container-fluid bg-warning p-2" id="footer">
+      <ul id="contato">
+        <li id="contato-title">Contato</li>
+        <li>Telefone: (11) 3333-3333</li>
+        <li>Email: bicviagens@exemplo.com</li>
+      </ul>
+        <p>Desenvolvido por Nickolas Martins</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
