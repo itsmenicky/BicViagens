@@ -41,7 +41,7 @@
         
               <div>
                 <h4 class="mb-3">Endereço de pagamento</h4>
-                <form class="needs-validation" novalidate>
+                <form id="form" class="needs-validation" novalidate>
                   <div class="row g-3">
                     <div class="col-sm-6">
                       <label for="firstName" class="form-label">Nome</label>
@@ -178,7 +178,7 @@
                       </div>
                     </div>
         
-                    <div class="col-md-3">
+                    <div id="lastCamp" class="col-md-3">
                       <label for="cc-cvv" class="form-label">CVV</label>
                       <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
                       <div class="invalid-feedback">
@@ -186,8 +186,6 @@
                       </div>
                     </div>
                   </div>
-        
-                  <hr class="my-4">
         
                   <button class="w-100 btn btn-primary btn-lg" type="submit">Continuar</button>
                 </form>
@@ -197,12 +195,14 @@
 
 
           <footer class="container-fluid bg-warning p-2" id="footer">
-            <ul id="contato">
+            <ul class="listFooter">
+              <li id="footerTitle">BICVIAGENS</li><br>
               <li id="contato-title">Contato</li>
               <li>Telefone: (11) 3333-3333</li>
               <li>Email: bicviagens@exemplo.com</li>
             </ul>
-              <p>Desenvolvido por Nickolas Martins</p>
+              <hr>
+              <p>Desenvolvido por <strong>Nickolas Martins</strong></p>
           </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     </body>

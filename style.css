@@ -38,13 +38,28 @@ footer{
     text-shadow: 2px 2px 2px black;
 }
 
-#contato{
+.listFooter{
+    padding-left: 0;
     text-align: left;
     color: #303030;
     list-style: none;
 }
+
+#footerTitle{
+    font-weight: bold;
+    color: black;
+}
+
 #contato-title{
     color: rgba(0, 0, 0, 0.853);
     font-weight: 500;
     padding-bottom: 10px;
+}
+
+#lastCamp{
+    padding-bottom: 20px;
+}
+
+#form{
+    padding-bottom: 20px;
 }
